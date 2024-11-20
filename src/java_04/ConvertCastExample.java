@@ -36,6 +36,7 @@ public class ConvertCastExample {
 //        short test = 300;
 //        byte testByte = test;
 
+        // int num1 = 2.7192922; // nese nuk e kastoni (cast) compileri nuk na len me vazhdu sepse ka me pas humbje te te dhenave
         int num1 = (int) 2.7192922; // prej double ne int
         System.out.println(num1);
         int num2 = 11 * (int) 0.25;
