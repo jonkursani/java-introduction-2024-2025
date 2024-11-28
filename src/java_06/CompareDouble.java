@@ -2,8 +2,8 @@ package java_06;
 
 public class CompareDouble {
     public static void main(String[] args) {
-        double a = 1.0 + 2.0; // 3.0
-        double b = 3.0; // 3.0
+        double a = 0.1 + 0.2; // 0.3
+        double b = 0.3; // 0.3
 
         double c = 3.0;
         double d = 3.00000001;
