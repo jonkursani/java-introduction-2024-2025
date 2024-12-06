@@ -63,44 +63,5 @@ public class StringExample {
         } else {
             System.out.println("Ka vlere");
         }
-
-        // concat
-        System.out.println("Filan ".concat("Fisteku"));
-
-        // replace
-        System.out.println(fjalia.replace("bore", "shi"));
-
-        // split
-        String numrat = "1,2";
-        System.out.println(numrat);
-        System.out.println(fjalia.split(" ")[0]); // ["Sot", "eshte"]
-        System.out.println(numrat.split(",")[1]); // ["1", "2"]
-        System.out.println(numrat.charAt(2));
-        System.out.println(numrat.substring(2));
-
-        // indexOf
-        System.out.println("Index of S: " + fjalia.indexOf("S"));
-        System.out.println("Index of e: " + fjalia.indexOf("e"));
-        System.out.println("Index of e after 5th index: " + fjalia.indexOf("e", 5));
-
-        // toLoweCase, toUpperCase
-        System.out.println(fjalia.toUpperCase());
-        System.out.println(fjalia.toLowerCase());
-
-        // trim
-        System.out.println("  Test".trim());
-        System.out.println("Test    ".trim());
-        System.out.println("     Test    ".trim());
-
-        // repeat
-        System.out.println("Msoni ma shume te shpija ".repeat(5));
-
-        // startsWith, endsWith
-        System.out.println(fjalia.startsWith("S"));
-        System.out.println(fjalia.endsWith("e"));
-
-
-
-
     }
 }
